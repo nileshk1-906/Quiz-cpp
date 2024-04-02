@@ -1,0 +1,51 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+    string ans;
+    cout << "Q1 : What is the capital city of Australia?" << endl;
+    cout << "a) Sydney" << endl << "b) Melbourn" << endl << "c) Canberra" << endl << "d) Perth" << endl;
+    cin >> ans;
+    if(ans == "c"){
+        cout << "correct answer" << endl;
+    }else{
+        cout << "wrong answer" << endl << "correct answer : c" << endl;
+    }
+    cout << endl;
+    cout << "Q2 : Who wrote the famous play Romeo and Juliet ?" << endl;
+    cout << "a) William Shakespeare" << endl << "b) Charles Dickens" << endl << "c) Jane Austen" << endl << "d) F. Scott Fitzgerald" << endl;
+    cin >> ans;
+    if(ans == "a"){
+        cout << "correct answer" << endl;
+    }else{
+        cout << "wrong answer" << endl << "correct answer : a" << endl;
+    }
+    cout << endl;
+    cout << "Q3 : Which planet is known as the Red Planet ?" << endl;
+    cout << "a) Venus" << endl << "b) Mars" << endl << "c) Jupiter" << endl << "d) Saturn" << endl;
+    cin >> ans;
+    if(ans == "b"){
+        cout << "correct answer" << endl;
+    }else{
+        cout << "wrong answer" << endl << "correct answer : b" << endl;
+    }
+    cout << endl;
+    cout << "Q4 : What is the chemical symbol for gold?" << endl;
+    cout << "a) Au" << endl << "b) Ag" << endl << "c) Fe" << endl << "d) Cu" << endl;
+    cin >> ans;
+    if(ans == "a"){
+        cout << "correct answer" << endl;
+    }else{
+        cout << "wrong answer" << endl << "correct answer : a" << endl;
+    }
+    cout << endl;
+    cout << "Q5 :Who painted the famous artwork Starry Night?" << endl;
+    cout << "a) Pablo Picasso" << endl << "b) Vincent van Gogh" << endl << "c) Leonardo da Vinci" << endl << "d) Claude Monet" << endl;
+    cin >> ans;
+    if(ans == "b"){
+        cout << "correct answer" << endl;
+    }else{
+        cout << "wrong answer" << endl << "correct answer : b" << endl;
+    }
+    return 0;
+}
